@@ -1,0 +1,38 @@
+h1{
+    color: white;
+}
+
+.header{
+    font-family: cursive;
+
+    background-color: rgb(11, 133, 138);
+    display: flex;
+    justify-content: space-between;
+}
+html{
+    background-color: rgb(36, 91, 194);
+}
+h2,p{
+    font-family: monospace;
+    color: rgb(255, 255, 255);
+    
+    background-color: rgb(0, 0, 0);
+    border-color: rgb(0, 0, 63);
+}
+.site-description{
+    display: flex;
+}
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: rgb(18, 114, 114);
+}
+.footer{
+    display: flex;
+    justify-content: flex-end;
+}
+
+p,h2{
+    text-align: center;
+}
